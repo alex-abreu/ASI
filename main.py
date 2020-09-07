@@ -30,11 +30,26 @@ def strip_space(list_in):
 
 if __name__ == '__main__':
 	
-	fList = ['alt_Simpsons_reg','alt_Simpsons_reg_123', 'alt_Simpsons_reg_147', 'alt_Simpsons_reg_159',
-			'alt_Simpsons_rep','alt_Simpsons_rep_123','alt_Simpsons_rep_147','alt_Simpsons_rep_159',
-			'reg_simpsons_alt','reg_simpsons_alt_123','reg_simpsons_alt_147','reg_simpsons_alt_159',
-			'reg_simpsons_alt']
+	fName = "lugares_simpsons.txt"
+	origin = readFile(fName)
 
-	for fName in fList:
-		names = readFile(fName+'.txt')
-		WriteFile("no_space"+fName+'.txt',strip_space(names))
+	t = Text()
+	list_out = []
+	list_out = list_out + origin
+	
+	temp = strip_space(origin)
+
+	list_out = list_out + temp
+	
+	list_out = list_out + t.replaceALL(temp)
+	list_out = list_out + t.alternate(temp)
+	list_out = list_out + t.add_value(temp, "123")
+	list_out = list_out + t.add_value(temp, "147")
+	list_out = list_out + t.add_value(temp, "159")
+
+	list_out = list_out + t.replaceALL(t.alternate(temp))
+	list_out = list_out + t.add_value(t.replaceALL(t.alternate(temp)),"123")
+	list_out = list_out + t.add_value(t.replaceALL(t.alternate(temp)),"147")
+	list_out = list_out + t.add_value(t.replaceALL(t.alternate(temp)),"159")
+
+	WriteFile("simpson_lugares_dicionario.txt", list_out)
