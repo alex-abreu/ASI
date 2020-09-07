@@ -73,3 +73,26 @@ class Text:
 				.replace('O','0').replace('I','1').replace('E','3').replace('A','@'))
 
 		return list_out
+
+class Merge:
+
+	def merge2(self, lis1,lis2):
+		
+		list_out = []
+		
+		for item1 in lis1:
+			for item2 in lis2:
+				list_out.append(item1+item2)
+
+		return list_out
+
+	def merge3(self, lis1,lis2,lis3):
+		
+		list_out = []
+		
+		for item1 in lis1:
+			for item2 in lis2:
+				for item3 in lis3:
+					list_out.append(item1+item2+item3)
+
+		return list_out
