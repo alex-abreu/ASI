@@ -73,11 +73,3 @@ class Text:
 				.replace('O','0').replace('I','1').replace('E','3').replace('A','@'))
 
 		return list_out
-
-
-if __name__ == '__main__':
-	
-	list_in = ['bAnAnA', 'abacate', 'abacaxi']
-	t =Text()
-	
-	print(t.alternate(list_in))
