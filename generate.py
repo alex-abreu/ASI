@@ -1,6 +1,6 @@
 class Text:
 
-	#returns a list with all itens alternating betwen lower and upper case
+	#returns a list with all itens alternating betwen lower and upper case starts with upper case
 	def alternate(self, list_in):
 		
 		list_out = []
@@ -12,7 +12,21 @@ class Text:
 			res=""
 
 		return list_out
+	
+	#same as alternate but starts with lower
+	def alternateL(self, list_in):
 		
+		list_out = []
+
+		for list_item in list_in:
+			res = [ele.lower() if not idx % 2 else ele.upper() for idx, ele in enumerate(list_item)] 
+			res = "".join(res)
+			list_out.append(res)
+			res=""
+
+		return list_out
+	
+
 	#returns a list with everything on lower case
 	def LowerCase(self, list_in):
 		
