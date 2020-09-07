@@ -1,11 +1,20 @@
 class Text:
 
+	def LowerCase(self, list_in):
+		
+		list_out = []
+
+		for item in list_in:
+			list_out.append(item.lower())
+
+		return list_out
+
 	def replaceA(self, list_in):
 
 		list_out = []
 		
 		for item in list_in:
-			list_out.append(item.replace('a','@'))
+			list_out.append(item.replace('a','@').replace('A','@'))
 
 		return list_out  
 	
@@ -14,7 +23,7 @@ class Text:
 		list_out = []
 		
 		for item in list_in:
-			list_out.append(item.replace('e','3'))
+			list_out.append(item.replace('e','3').replace('E','3'))
 
 		return list_out
 
@@ -23,7 +32,7 @@ class Text:
 		list_out = []
 		
 		for item in list_in:
-			list_out.append(item.replace('i','1'))
+			list_out.append(item.replace('i','1').replace('I','1'))
 
 		return list_out
 
@@ -32,7 +41,7 @@ class Text:
 		list_out = []
 		
 		for item in list_in:
-			list_out.append(item.replace('o','O'))
+			list_out.append(item.replace('o','0').replace('O','0'))
 
 		return list_out
 
@@ -41,10 +50,11 @@ class Text:
 		list_out = []
 		
 		for item in list_in:
-			wordA = item.replace('a','@').replace('e','3').replace('i','1').replace('o','0')
-			list_out.append(wordA)
+			list_out.append(item.replace('a','@').replace('e','3').replace('i','1').replace('o','0')
+				.replace('O','0').replace('I','1').replace('E','3').replace('A','@'))
 
 		return list_out
+
 
 if __name__ == '__main__':
 	
