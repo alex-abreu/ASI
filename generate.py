@@ -1,5 +1,16 @@
 class Text:
 
+	#adds value at the end of the string
+	def add_value(self, list_in, value_string):
+		
+		list_out = []
+	
+		for item in list_in:
+			list_out.append(item+value_string)
+
+		return list_out
+
+	
 	#returns a list with all itens alternating betwen lower and upper case starts with upper case
 	def alternate(self, list_in):
 		

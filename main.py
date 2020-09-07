@@ -20,13 +20,21 @@ def WriteFile(fName, list_in):
 		f.write('\n')
 	f.close()
 
+def strip_space(list_in):
+	
+	list_out = []
+
+	for item in list_in:
+		list_out.append(item.replace(" ", ""))
+	return list_out
+
 if __name__ == '__main__':
 	
-	t = Text()
+	fList = ['alt_Simpsons_reg','alt_Simpsons_reg_123', 'alt_Simpsons_reg_147', 'alt_Simpsons_reg_159',
+			'alt_Simpsons_rep','alt_Simpsons_rep_123','alt_Simpsons_rep_147','alt_Simpsons_rep_159',
+			'reg_simpsons_alt','reg_simpsons_alt_123','reg_simpsons_alt_147','reg_simpsons_alt_159',
+			'reg_simpsons_alt']
 
-	list_in = readFile('simpsons_personagens.txt')
-
-	WriteFile("alt_Simpsons_reg.txt",t.alternate(list_in))
-	WriteFile("alt_Simpsons_rep.txt",t.replaceALL(t.alternate(list_in)))
-	WriteFile("reg_simpsons_alt.txt",t.replaceALL(list_in))
-	
+	for fName in fList:
+		names = readFile(fName+'.txt')
+		WriteFile("no_space"+fName+'.txt',strip_space(names))
