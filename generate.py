@@ -1,5 +1,19 @@
 class Text:
 
+	#returns a list with all itens alternating betwen lower and upper case
+	def alternate(self, list_in):
+		
+		list_out = []
+
+		for list_item in list_in:
+			res = [ele.upper() if not idx % 2 else ele.lower() for idx, ele in enumerate(list_item)] 
+			res = "".join(res)
+			list_out.append(res)
+			res=""
+
+		return list_out
+		
+	#returns a list with everything on lower case
 	def LowerCase(self, list_in):
 		
 		list_out = []
@@ -9,6 +23,7 @@ class Text:
 
 		return list_out
 
+	#replace all 'a's 'A's with '@'
 	def replaceA(self, list_in):
 
 		list_out = []
@@ -18,6 +33,7 @@ class Text:
 
 		return list_out  
 	
+	#replace all 'e's 'E's with '3'
 	def replaceE(self, list_in):
 
 		list_out = []
@@ -27,6 +43,7 @@ class Text:
 
 		return list_out
 
+	#replace all 'i's 'I's with '1'
 	def replaceI(self, list_in):
 
 		list_out = []
@@ -36,6 +53,7 @@ class Text:
 
 		return list_out
 
+	#replace all 'o's 'O's with '0'
 	def replaceO(self, list_in):
 
 		list_out = []
@@ -45,6 +63,7 @@ class Text:
 
 		return list_out
 
+	#replace all 'a' 'e' 'i' 'o' with they numeric counterpart, same for upper case
 	def replaceALL(self, list_in):
 
 		list_out = []
@@ -60,4 +79,5 @@ if __name__ == '__main__':
 	
 	list_in = ['bAnAnA', 'abacate', 'abacaxi']
 	t =Text()
-	print(t.replaceALL(list_in))
+	
+	print(t.alternate(list_in))
