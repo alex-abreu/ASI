@@ -1,4 +1,5 @@
 from generate import *
+import glob
 
 #reads the file fName file and creates a list
 #with the names in the file
@@ -13,6 +14,11 @@ def readFile(fName):
 
 	return list_out
 
+#Obtém a primeira e última palavras de uma string(separação por espaços)
+def getFirstAndLast(name):
+	namesList = name.split(" ")
+	return namesList[0], namesList[-1]
+
 def WriteFile(fName, list_in):
 	f = open(fName, "w")
 	for item in list_in:
@@ -20,36 +26,47 @@ def WriteFile(fName, list_in):
 		f.write('\n')
 	f.close()
 
-def strip_space(list_in):
-	
-	list_out = []
+# "substitui" espaços por underlines(adicionando novos itens). 
+# Não remove os itens originais com espaços.
+def underline_space(list_in):
+	list_out = set()
 
 	for item in list_in:
+		list_out.add(item.replace(" ", "_"))
+	return list_in.union(list_out)
+
+#Remove espaços das strings da lista.
+def strip_space(list_in):
+	list_out = []
+	for item in list_in:
 		list_out.append(item.replace(" ", ""))
-	return list_out
+	return set(list_out)
 
 if __name__ == '__main__':
-	
-	fName = "lugares_simpsons.txt"
-	origin = readFile(fName)
 
+	origin = []
+	for file in glob.glob('dicionários\\*.txt'):
+		origin += open(file, 'r').read().split('\n')
+		print(origin[0])
+	origin = list(set(origin))
+	size = len(origin)
+	print(len(origin))
+	#pega o nome e sobrenome(cada um vira uma string separada) e adiciona-os na lista
+	#sem remover a string original
+	for i in range(0, size):
+		origin[i] = origin[i].strip()
+		first, last = getFirstAndLast(origin[i])
+		origin.append(first)
+		origin.append(last)
+	origin = set(origin)
 	t = Text()
-	list_out = []
-	list_out = list_out + origin
 	
-	temp = strip_space(origin)
-
-	list_out = list_out + temp
+	origin = underline_space(origin)
+	origin = strip_space(origin)
+	origin = t.generate(origin)
+	origin.discard('')
+	origin.discard(" ")
 	
-	list_out = list_out + t.replaceALL(temp)
-	list_out = list_out + t.alternate(temp)
-	list_out = list_out + t.add_value(temp, "123")
-	list_out = list_out + t.add_value(temp, "147")
-	list_out = list_out + t.add_value(temp, "159")
+	WriteFile("dicionários\\alterados\\test.txt", origin)
 
-	list_out = list_out + t.replaceALL(t.alternate(temp))
-	list_out = list_out + t.add_value(t.replaceALL(t.alternate(temp)),"123")
-	list_out = list_out + t.add_value(t.replaceALL(t.alternate(temp)),"147")
-	list_out = list_out + t.add_value(t.replaceALL(t.alternate(temp)),"159")
-
-	WriteFile("simpson_lugares_dicionario.txt", list_out)
+	

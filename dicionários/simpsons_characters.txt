@@ -1,0 +1,633 @@
+The Simpson Family
+Homer Simpson
+Marge Simpson
+Bart Simpson
+Lisa Simpson
+Maggie Simpson
+Abraham Simpson
+Head of Household
+Homer's Wife
+Oldest Child
+Middle Child
+Youngest Child
+Homer's Father
+Mona Simpson
+Patty Bouvier
+Selma Bouvier
+Jaqueline Bouvier
+Herbert Powell
+Ling Bouvier
+Homer's Mother
+Marge's Sister
+Marge's Sister
+Marge's Mother
+Homer's Half-brother
+Selma's Adopted Daughter
+The Flanders Family
+Ned Flanders
+Maud Flanders
+Rod Flanders
+Todd Flanders
+Simpsons' Neighbour
+Ned's Wife
+Ned's Oldest Son
+Ned's Youngest Son
+Moes Tavern
+Moe Szyslak
+Barney Gumble
+Sam
+Larry
+Bar Owner
+Homer's Drunken Friend
+Moes Tavern Regular
+Moes Tavern Regular
+Springfield Nuclear Power Plant
+Monty Burns
+Waylon Smithers
+Lenny Leonard
+Carl Carlson
+Mindy
+Fritz
+Power Plant Owner
+Assistant to Mr Burns
+Homer's Co-worker
+Homer's Co-worker
+Homer's Co-worker
+Power Plant Worker
+Frank Grimes
+Karl
+Charlie
+Roz Davis
+Zutroy
+Homer's Co-worker
+Homer's Assistant
+Homer's Co-worker
+Homer's Co-worker
+Illegal Immigrant
+Springfield Elementary School Staff
+Seymour Skinner
+Edna Krabappel
+Gary Chalmers
+Doris
+Miss Hoover
+Willie
+School Principal
+Bart's Teacher
+School Superintendant
+School Lunchlady
+Lisa's Teacher
+School Groundskeeper
+Otto Mann
+Mr Largo
+Leopold
+Mr Bergstrom
+Dr J. Loren Pryor
+School Bus Driver
+Music Teacher
+Chalmers' Henchman
+Supply Teacher
+Psychologist
+Troy McClure
+Kent Brockman
+Krusty the Clown
+Sideshow Bob
+Sideshow Mel
+Sideshow Raheem
+Actor
+News Anchorman
+TV Star
+Krusty Sidekick
+Krusty Sidekick
+Krusty Sidekick
+Itchy
+Scratchy
+Poochie
+Mr Teeny
+Bumblebee Man
+Rainier Wolfcastle
+Cartoon Character
+Cartoon Character
+Cartoon Character
+Krusty's Monkey
+Spanish TV Star
+Movie Star
+Duffman
+Happy Little Elf
+Radioactive Man
+Fallout Boy
+Arthur Crandell
+Gabbo
+Beer Spokesman
+Cartoon Character
+Comic Book Hero
+Comic Book Sidekick
+TV Ventriloquist
+Arthur's Dummy
+Mr Sparkle
+Buck McCoy
+Lucius sweet
+Drederick Tatum
+Danger Dog
+Phone Man
+Japanese Ad Star
+Old Western Star
+Boxing Promoter
+Champion Boxer
+Cartoon Character
+Phone Company Mascot
+Doctor Colussus
+Jimmy
+Birch Barlow
+Capt. Lance Murdoch
+Scott Christian
+Jimmy Apollo
+Comic Book Villain
+McClure Co-star
+Right Winger
+Daredevil
+TV Reporter
+Football Pundit
+Smilin' Joe Fission
+Dave Shutton
+Arnie Pye
+Bill
+Marty
+Boobarella
+Nuclear Mascot
+Newspaper Reporter
+Traffic Reporter
+KBBL Host
+KBBL Host
+Movie Star
+Ernst
+Gunter
+Magician
+Magician
+Justice and Politics
+Clancy Wiggum
+Lou
+Eddie
+Joe Quimby
+Bob Arnold
+Don Brodka
+Chief of Police
+Police Officer
+Police Officer
+Mayor of Springfield
+Congressman
+Store Detective
+Judge Snyder
+Judge Harm
+Lawyer
+Lionel Hutz
+Richard Nixon
+Gerald Ford
+Local Judge
+Local Judge
+Regular Extra
+Shyster Lawyer
+US President
+George Bush
+Bill Clinton
+Rex Banner
+Atkins
+Mary Bailey
+Martha Quimby
+US President
+US President
+Private Eye
+State Comptroller
+State Governor
+The Mayor's Wife
+Barack Obama
+Michelle Obama
+Tony Blair
+US President
+US First Lady
+UK Prime Minister
+The Criminal Element
+Snake
+Fat Tony D'Amico
+Louie
+Legs
+Don Vittorio DiMaggio
+Molloy
+Career Hood
+Mafioso
+Cat Burglar
+Jericho
+Jimmy the Scumbag
+Tattoo Annie
+Johnny Tightlips
+Frankie the Squealer
+Gloria
+Jeans Counterfeiter
+Local Crook
+Female Prisoner
+Mafioso
+Mafioso
+Snake's Girlfriend
+Ms. Botz
+Evil Babysitter
+The Qwik-E-Mart			
+Apu Nahasapeemapetilon
+Manjula
+Sunjay
+Pahusacheta
+Sashi
+Pria
+Store Clerk
+Apu's Wife
+Apu's Brother
+Sunjay's Daughter
+Octuplet
+Octuplet
+Poonam
+Uma
+Anoop
+Gheet
+Sandeep
+Nabendu
+Octuplet
+Baby Gerald
+Roy
+Lester
+Pepi
+Amber Dempsey
+Jesse
+Maggie's Nemesis
+New Simpson
+Bart Look-a-like
+Spanish Orphan
+Little Miss Springfield
+Green Activist
+Cosine
+Booker T. Report
+Sherri & Terri
+Twin Sisters
+Nelson Muntz
+Dolph Starbeam
+Kearney Zzyzwicz
+Jimbo Jones
+Milhouse Van Houten
+Martin Prince
+School Bully
+School Bully
+School Bully
+School Bully
+Bart's Best Friend
+Teacher's Pet
+Francine
+Alexis Whitney
+Laura Powers
+Janey Powell
+Jessica Lovejoy
+Ralph Wiggum
+Lisa's Bully
+Cool Girl
+Daughter of Ruth
+Friend of Lisa
+Daughter of Reverend
+Son of Police Chief
+Doug
+Benjamin
+Gary
+Sophie
+Greta Wolfcastle
+Spotty Teen
+Springfield U Nerd
+Springfield U Nerd
+Springfield U Nerd
+Krusty's Daughter
+Rainier's Daughter
+Regular Extra
+Ashley Grant
+Allison Taylor
+Lewis
+Thelonius
+Patches
+Poor Violet
+Babysitter
+Bright School Girl
+School Kid
+Lisa's Beau
+Orphan
+Orphan
+Richard
+Shauna
+Gino
+Ethan Foley
+Wendell Borton
+Uter
+Bart's Friend
+Jimbo's Ex
+Sideshow Bob's Son
+Gifted Child
+Queezy Kid
+Exchange Student
+Other Characters
+Kirk Van Houten
+Luann Van Houten
+Nana Van Houten
+Timothy Lovejoy
+Helen Lovejoy
+Agnes Skinner
+Milhouse's Father
+Milhouse's Mother
+Milhouse's Grandmother
+Local Minister
+Minister's Wife
+Principal's Mother
+Larry Burns
+Akira
+Artie Ziff
+Rachel Jordan
+Leon Kompowsky
+Professor Lombardo
+Monty's Son
+Japanese Resident
+Marge's Prom Date
+Christian Singer
+Mental Patient
+Art Tutor
+Hank Scorpio
+Seymore Skinner
+Shary Bobbins
+Crazy Texan
+Luigi
+Freddie Quimby
+Owner of Globex
+The Real One!
+Simpsons Housekeeper
+Oil Tycoon
+Italian Chef
+Mayor's Nephew
+Roger Meyers Sr.
+Roger Meyers Jr.
+Elijah Hooper
+Herman Hermann
+Jaques
+Chester J. Lampwick
+Cartoon Magnate
+Cartoon Magnate
+Clergyman
+Military Store Owner
+Bowling Coach
+I & S Creator
+Very Tall Man
+Hollis Hurlbut
+Woodrow
+Surly Joe
+Hippie
+Nigel
+Local Giant
+Local Historian
+Edna's Fake Penpal
+Local Builder
+Recycling Worker
+B Sharps' Manager
+Brad Goodman
+Dr Zweig
+Pet Shop Guy
+Evelyn Peters
+Belle
+Handsome Pete
+Selp-help Guru
+Psychoanalyst
+Store Clerk
+Socialite
+Bordello Owner
+Squidport Busker
+Princess Kashmir
+Ballet Teacher
+Fidel Castro
+Hugh Parkfield
+Park Ranger
+Delivery Guy
+Belly Dancer
+Bart's Tutor
+Cuban President
+Lisa's Future Husband
+Mt Useful Guide
+Regular Extra
+Preacher
+Professor John Frink
+Jay Sherman
+Ruth Powers
+The Vet
+Number One
+Evangelist
+Local Scientist
+Film Critic
+Marge's Friend
+Failed Doctor
+Head Stonecutter
+Cletus Spuckler
+Brandine Spuckler
+Disco Stu
+Lurleen Lumpkin
+Gil Gunderson
+Rabbi Krustofski
+Slack Jawed Yokel
+Cletus's Wife
+Dance King
+Country Singer
+Local Loser
+Krusty's Father
+Raphael
+Nick Riviera
+Hans Moleman
+Lyle Lanley
+Horatio McCallister
+Cecil Terwilliger
+Local Wiseguy
+Charlatan Doctor
+Nearly Blind Resident
+Monorail Salesman
+Old Sea Captain
+Sideshow Bob's Brother
+Bleeding Gums Murphy
+Marvin Monroe
+Jasper Beardly
+Crazy Old Man
+Comic Book Guy
+Jebediah Springfield
+Blues Musician
+Psychologist
+Old Folks Home Resident
+Old Folks Home Resident
+Store Owner
+Town's Founder
+Cesar
+Ugolin
+Kang & Kodos
+Leprechaun
+Capitol City Goofball
+Stacy Lovell
+Vineyard Worker
+Vineyard Worker
+Aliens
+Irish Imp
+Baseball Mascot
+Malibu Stacy Designer
+Reporter
+Sarah Wiggum
+Australian
+Commandant
+Bob
+Adult Tutor
+Newspaperman
+Ralph's Mother
+Angry Farmer
+Military Academy
+RV Salesman
+Administrator
+Col. Leslie Hapablap
+Freak Show Boss
+Dr Foster
+Frank Ormand
+Sandwich Guy
+Mathemagician
+US Air Force
+Hullabalooza
+Child Psychologist
+Franchise Boss
+Delivery Man
+Party Entertainer
+Lisa
+Emily Winthrop
+Bea Simmons
+Millicent
+Justice of the Peace
+Tattooist
+Lisa's Stand-in
+Dog Trainer
+Grandpa's Girlfriend
+Riding Instructor
+Wedding Preacher
+Parlour Owner
+Cookie Kwan
+Lugash
+Mr Muntz
+Mrs Muntz
+Lindsay Naegle
+Jake
+Realtor
+Gym Instructor
+Nelson's Dad
+Nelson's Mum
+Businesswoman
+Barber
+Lois Pennycandy
+Julius Hibbert
+Bernice Hibbert
+Amber Simpson
+Ginger Flanders
+The Yes Guy
+Krusty's Secretary
+Family Doctorr
+Dr Hibbert's Wife
+Homer's Vegas Wife
+Ned's Vegas Wife
+Occasional Extra
+Ms. Albright
+Eleanor Abernathy
+Chase
+Mr Costington
+Declan Desmond
+Alice Glick
+Sunday School Teacher
+Crazy Cat Lady	
+Mrs Van Houten's Boyfriend	
+Dept. Store President	
+Documentary Maker	
+Old Lady
+Francesca
+Terrence
+Dondelinger
+Titania
+Ray Magini
+Llewellyn Sinclair
+Sideshow Bob's Wife
+Doughnut Vendor
+Homer's Principal
+Barmaid
+Roofer
+Drama Director
+Shelbyville Residents
+Shelbyville Manhatten
+Aristotle Amadopolis
+Shelby
+Shelbyville Milhouse
+Town's Founder
+Power Plant Owner
+Local Kid
+Local Kid
+Animals
+Santa's Little Helper
+Snowball II
+Laddie
+Pinchy
+Mojo
+Bullfrog
+Simpson Dog
+Simpson Cat
+Bart's Other Dog
+Homer's Lobster
+Homer's Monkey
+Bart's Pet
+Stampy
+Hound
+Blinky
+Bart's Hamster
+Coyote
+Koala Bear
+Bart's Elephant
+Burns's Guard Dog
+Mutant Fish
+Astronaut Rodent
+Homer's Inner Voice
+Helicopter Stoaway
+General Sherman
+Jub-Jub
+Giant Catfish
+Selma's Iguana
+John Waters
+Agent Fox Mulder
+Agent Dana Scully
+Richard Gere
+Mel Gibson
+Woody Allen
+Jay Leno
+Alec Baldwin
+Kim Basinger
+Billy Corgan
+Ron Howard
+Vincent St Hubbins
+Sting
+Mark Hamill
+Stan Lee
+Dr Stephen Hawking
+Gary Coleman
+Britney Spears
+Leonard Nimoy
+Elton John
+JK Rowling
+Mick Jagger
+Keith Richard
+Elvis Costello
+Michael Stipe
+Kid Rock
+Roger Daltrey
+Pete Townshend
+John Entwistle
+Lenny Kravitz	
+Simon Cowell
+Bill Gates
+Steve Buscemi
+Rupert Murdoch
+Tony Hawk
+Weird Al Yankovic
+Bette Midler
+Jerry Springer
+Ricky Gervais

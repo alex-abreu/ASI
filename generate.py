@@ -2,122 +2,101 @@ class Text:
 
 	#adds value at the end of the string
 	def add_value(self, list_in, value_string):
-		
-		list_out = []
-	
+		list_out = set()
 		for item in list_in:
-			list_out.append(item+value_string)
-
-		return list_out
+			list_out.add(item+value_string)
+		return list_in.union(list_out)
+		
 
 	
 	#returns a list with all itens alternating betwen lower and upper case starts with upper case
-	def alternate(self, list_in):
+	def alternate(self, list_in, start):
+		list_out = set()
 		
-		list_out = []
-
-		for list_item in list_in:
-			res = [ele.upper() if not idx % 2 else ele.lower() for idx, ele in enumerate(list_item)] 
-			res = "".join(res)
-			list_out.append(res)
-			res=""
-
-		return list_out
+		if start == "upper":
+			for item in list_in:
+				res = [ele.upper() if not idx % 2 else ele.lower() for idx, ele in enumerate(item)] 
+				res = "".join(res)
+				list_out.add(res)
+				res=""
+		elif start == "lower":
+			for item in list_in:
+				res = [ele.lower() if not idx % 2 else ele.upper() for idx, ele in enumerate(item)] 
+				res = "".join(res)
+				list_out.add(res)
+				res=""
+		return list_in.union(list_out)
 	
-	#same as alternate but starts with lower
-	def alternateL(self, list_in):
+	#returns a list with everything on lower case OR uppercase
+	def LUCase(self, list_in, case):
+		list_out = set()
 		
-		list_out = []
+		if case == "upper":
+			for item in list_in:
+				list_out.add(item.upper())
+		elif case == "lower":
+			for item in list_in:
+				list_out.add(item.lower())
+		return list_in.union(list_out)
 
-		for list_item in list_in:
-			res = [ele.lower() if not idx % 2 else ele.upper() for idx, ele in enumerate(list_item)] 
-			res = "".join(res)
-			list_out.append(res)
-			res=""
-
-		return list_out
-	
-
-	#returns a list with everything on lower case
-	def LowerCase(self, list_in):
-		
-		list_out = []
-
-		for item in list_in:
-			list_out.append(item.lower())
-
-		return list_out
-
-	#replace all 'a's 'A's with '@'
+	#replace all 'a's and 'A's with '@'
 	def replaceA(self, list_in):
 
-		list_out = []
+		list_out = set()
 		
 		for item in list_in:
-			list_out.append(item.replace('a','@').replace('A','@'))
+			list_out.add(item.replace('a','@').replace('A','@'))
 
-		return list_out  
+		return list_in.union(list_out)  
 	
 	#replace all 'e's 'E's with '3'
 	def replaceE(self, list_in):
 
-		list_out = []
+		list_out = set()
 		
 		for item in list_in:
-			list_out.append(item.replace('e','3').replace('E','3'))
+			list_out.add(item.replace('e','3').replace('E','3'))
 
-		return list_out
+		return list_in.union(list_out)
 
-	#replace all 'i's 'I's with '1'
-	def replaceI(self, list_in):
+	#replace all 'i's 'I's with '1' OR '!'
+	def replaceI(self, list_in, type):
 
-		list_out = []
+		list_out = set()
 		
-		for item in list_in:
-			list_out.append(item.replace('i','1').replace('I','1'))
-
-		return list_out
+		if type == 1:
+			for item in list_in:
+				list_out.add(item.replace('i','1').replace('I','1'))
+		elif type == "!":
+			for item in list_in:
+				list_out.add(item.replace('i','!').replace('I','!'))
+		return list_in.union(list_out)
 
 	#replace all 'o's 'O's with '0'
 	def replaceO(self, list_in):
 
-		list_out = []
+		list_out = set()
 		
 		for item in list_in:
-			list_out.append(item.replace('o','0').replace('O','0'))
+			list_out.add(item.replace('o','0').replace('O','0'))
 
-		return list_out
+		return list_in.union(list_out)
 
-	#replace all 'a' 'e' 'i' 'o' with they numeric counterpart, same for upper case
-	def replaceALL(self, list_in):
+	#generates a list of passwords
+	def generate(self, list_in):
+		list_in = self.add_value(list_in, "123")
+		list_in = self.add_value(list_in, "456")
+		list_in = self.add_value(list_in, "321")
+		list_in = self.replaceA(list_in)
+		list_in = self.replaceE(list_in) 
+		list_in = self.replaceI(list_in, 1) 
+		list_in = self.replaceI(list_in, "!")
+		list_in = self.replaceO(list_in)
+		list_in = self.alternate(list_in, "upper")
+		list_in = self.alternate(list_in, "lower")
+		list_in = self.LUCase(list_in, "upper")
+		list_in = self.LUCase(list_in, "lower")
+		print(len(list_in))
+		return list_in
 
-		list_out = []
-		
-		for item in list_in:
-			list_out.append(item.replace('a','@').replace('e','3').replace('i','1').replace('o','0')
-				.replace('O','0').replace('I','1').replace('E','3').replace('A','@'))
 
-		return list_out
-
-class Merge:
-
-	def merge2(self, lis1,lis2):
-		
-		list_out = []
-		
-		for item1 in lis1:
-			for item2 in lis2:
-				list_out.append(item1+item2)
-
-		return list_out
-
-	def merge3(self, lis1,lis2,lis3):
-		
-		list_out = []
-		
-		for item1 in lis1:
-			for item2 in lis2:
-				for item3 in lis3:
-					list_out.append(item1+item2+item3)
-
-		return list_out
