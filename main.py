@@ -47,10 +47,8 @@ if __name__ == '__main__':
 	origin = []
 	for file in glob.glob('dicionários\\*.txt'):
 		origin += open(file, 'r').read().split('\n')
-		print(origin[0])
 	origin = list(set(origin))
 	size = len(origin)
-	print(len(origin))
 	#pega o nome e sobrenome(cada um vira uma string separada) e adiciona-os na lista
 	#sem remover a string original
 	for i in range(0, size):

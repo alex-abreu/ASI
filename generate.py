@@ -96,7 +96,7 @@ class Text:
 		list_in = self.alternate(list_in, "lower")
 		list_in = self.LUCase(list_in, "upper")
 		list_in = self.LUCase(list_in, "lower")
-		print(len(list_in))
+		print(str(len(list_in)) + " passwords generated")
 		return list_in
 
 
