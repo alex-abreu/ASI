@@ -19,6 +19,19 @@ def getFirstAndLast(name):
 	namesList = name.split(" ")
 	return namesList[0], namesList[-1]
 
+#Cria nomes separados para senhas que contém parênteses
+def getParentheses(list_in):
+	list_out = set()
+	for item in list_in:
+		if "(" not in item and ")" not in item:
+			continue
+		namesList = item.split("(")
+		for j in range(0, len(namesList)):
+			list_out.add(item.replace(")", "").replace("(", ""))
+	return list_in.union(list_out)
+		
+	
+
 def WriteFile(fName, list_in):
 	f = open(fName, "w")
 	for item in list_in:
@@ -61,6 +74,7 @@ if __name__ == '__main__':
 	
 	origin = underline_space(origin)
 	origin = strip_space(origin)
+	origin = getParentheses(origin)
 	origin = t.generate(origin)
 	origin.discard('')
 	origin.discard(" ")
