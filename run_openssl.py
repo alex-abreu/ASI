@@ -10,11 +10,10 @@ path = 'dicionários\\'
 nameList = []
 for file in glob.glob(path+'*.txt'):
     nameList += open(file, 'r').read().split('\n')
-    
+
 for i in range(0, len(nameList)):
    nameList[i] = nameList[i].strip()
 nameList = list(set(nameList))
-nameList.sort()
 
 fileList = [f"file{i}.enc" for i in range(1,31)]
 
