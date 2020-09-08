@@ -26,10 +26,18 @@ def getParentheses(list_in):
 		if "(" not in item and ")" not in item:
 			continue
 		namesList = item.split("(")
+		list_out.add(item.replace(")", "").replace("(", ""))
 		for j in range(0, len(namesList)):
-			list_out.add(item.replace(")", "").replace("(", ""))
+			list_out.add(namesList[j])
 	return list_in.union(list_out)
-		
+
+#remove apóstrofos de strings e as insere na lista	
+def removeApostrophe(list_in):
+	list_out = set()
+	for item in list_in:
+		if "'" in item:
+			list_out.add(item.replace("'", ""))
+	return list_in.union(list_out)
 	
 
 def WriteFile(fName, list_in):
@@ -72,6 +80,7 @@ if __name__ == '__main__':
 	origin = set(origin)
 	t = Text()
 	
+	origin = removeApostrophe(origin)
 	origin = underline_space(origin)
 	origin = strip_space(origin)
 	origin = getParentheses(origin)
@@ -79,6 +88,6 @@ if __name__ == '__main__':
 	origin.discard('')
 	origin.discard(" ")
 	
-	WriteFile("dicionários\\alterados\\test.txt", origin)
+	WriteFile("dicionários\\alterados\\test.txt", sorted(origin))
 
 	
