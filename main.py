@@ -1,18 +1,6 @@
 from generate import *
+
 import glob
-
-#reads the file fName file and creates a list
-#with the names in the file
-def readFile(fName):
-	list_out = []
-	file = open(fName,"r")
-	for line in file:
-		if "\n" in line:
-			list_out.append(line[:-1])
-		else:
-			list_out.append(line)
-
-	return list_out
 
 #Obtém a primeira e última palavras de uma string(separação por espaços)
 def getFirstAndLast(name):
@@ -39,7 +27,7 @@ def removeApostrophe(list_in):
 			list_out.add(item.replace("'", ""))
 	return list_in.union(list_out)
 	
-
+#gera o arquivo com o dicionário
 def WriteFile(fName, list_in):
 	f = open(fName, "w")
 	for item in list_in:
@@ -88,6 +76,6 @@ if __name__ == '__main__':
 	origin.discard('')
 	origin.discard(" ")
 	
-	WriteFile("dicionários\\alterados\\test.txt", sorted(origin))
+	WriteFile("dicionários\\alterados\\final.txt", origin)
 
 	
